@@ -1,0 +1,25 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+I used Node.js, MySQL, Express.js, Sequelize ORM framework, and EJS view.
+I chose these tools because they can separate the files during development compared to the PHP.
+Controllers help me to connect retrieving data and send it to the EJS views. Views are only for rending HTML pages. Models can help me know more about databases. The Sequelize CLI creates migrations and automatically creates a database table in the Sequel Pro application. 
+
+|- controllers/
+  |- payer.js
+|- views
+  |- index.ejs
+  |- balance.ejs
+|- models/
+  |- Payers
+|- migrations/
+  |- 20231002025818-create-payer.js
+|- index.js
+
+
+2. What are the advantages and disadvantages of your solution?
+The advantage of my solution lies in its ease of data management and view rendering.
+
+However, a notable drawback is that, at times, it can be challenging to identify variables passed from the controller to the EJS files, leading to potential confusion within the MVC structure.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+One of my favorite projects was creating a second-hand book store, where I managed RESTful APIs. The challenge lay in achieving a clear separation between front-end and back-end development. I had to build and deploy RESTful APIs and then successfully deploy them on AWS EC2. This challenge involved configuring firewalls and implementing Nginx to secure the front end's access to the APIs. The project strengthened my technical skills and emphasized the importance of planning and collaboration for success.
