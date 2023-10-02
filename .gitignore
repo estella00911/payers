@@ -1,4 +1,3 @@
-/board/conn.php
-/board/conn_ubuntu_success.php
+.env
 /node_modules
-.DS_Store
+
